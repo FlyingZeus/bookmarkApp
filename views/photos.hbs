@@ -1,0 +1,30 @@
+ 
+{{> menu id="photos"}}
+<section class="ui center aligned middle aligned segment">
+<section class="sixteen wide column" style="padding-bottom:40px;">
+  
+     <h1 class="ui padded blue header">
+    Hi {{username}}, here is your {{title}} <i class="picture icon"></i>
+    </h1>
+  </section>
+    
+
+  
+    
+    <div class="ui cards">
+      {{#each album.photos}}
+        {{> cardPic }}
+      {{/each}}
+    </div>
+    {{>addPicture}}
+     
+  
+
+</section>
+
+
+
+
+
+
+

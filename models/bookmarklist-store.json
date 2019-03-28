@@ -1,0 +1,32 @@
+{
+  "bookmarkCollection": [
+    {
+      "id": "eeb03281-a594-4862-9c98-5516db190156",
+      "userid": "2befee1d-a727-43df-97ea-2b557aca154b",
+      "title": "test",
+      "color": "red",
+      "bookmarks": []
+    },
+    {
+      "id": "69907ecc-ecc9-4d25-baea-03548d6c5459",
+      "userid": "e1265572-8912-47d5-97c2-646f03ff0e93",
+      "title": "Test",
+      "color": "red",
+      "bookmarks": [
+        {
+          "id": "227605ce-5604-4c7d-b7fe-b241caf5b349",
+          "title": "Test",
+          "link": "http://www.wit.ie",
+          "summary": "summary"
+        }
+      ]
+    },
+    {
+      "id": "3a02ee5b-d74a-4a8d-97b7-1422af75b502",
+      "userid": "e1265572-8912-47d5-97c2-646f03ff0e93",
+      "title": "test",
+      "color": "blue",
+      "bookmarks": []
+    }
+  ]
+}
