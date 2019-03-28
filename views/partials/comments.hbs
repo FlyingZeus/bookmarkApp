@@ -1,0 +1,20 @@
+
+  <h1 class="ui blue header">Feedback</h1>
+  {{#each allcommments}}
+  <section class="ui blue center aligned middle aligned segment">
+  
+    <div>
+    <img "ui avatar image" class="ui mini left floated image "  src="https://cdn.glitch.com/a86187e0-9cf1-43f4-b42a-86d79e5430bf%2Fchat%20bubble.png?1524061035108     " alt="pic">
+    </div>
+      <div style="padding-bottom:20px">
+        {{comment}}
+        <div>
+          
+        <p style="float:right; padding-bottom:10px">Posted by: {{name}}</p>
+         
+        </div>
+       
+        </div>
+  </section>
+            {{/each}}
+  

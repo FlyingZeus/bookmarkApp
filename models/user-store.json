@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "firstName": "David",
+      "lastName": "Morris",
+      "email": "david@morris.com",
+      "password": "zeus3000",
+      "id": "2befee1d-a727-43df-97ea-2b557aca154b"
+    },
+    {
+      "firstName": "Rosanne",
+      "lastName": "Birney",
+      "email": "rosanne.birney@gmail.com",
+      "password": "pass",
+      "id": "e1265572-8912-47d5-97c2-646f03ff0e93"
+    },
+    {
+      "firstName": "david",
+      "lastName": "morris",
+      "email": "david@morris.ie",
+      "password": "zeus3000",
+      "id": "e3e23834-280f-4156-9c63-057fe8eb8a48"
+    }
+  ]
+}

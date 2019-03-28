@@ -1,0 +1,55 @@
+
+
+
+{{> menu id="bookmarks"}}
+
+  <section class="ui center aligned middle aligned segment">
+    
+    {{>bookmarks}}
+    
+    
+
+
+   <div class="ui three column grid">
+   {{#each bookmarklist}}
+  <div class="column">
+   
+    <div class="ui fluid card">
+      
+      
+      <div class="image">
+       
+        <i class=" {{color}}  bookmark icon"></i>
+      </div>
+      
+      
+      
+      <div class="content">
+       
+        <h3 class="header">{{title}}({{bookmarks.length}})</h3>
+      </div>
+      <div class="ui segment">
+         <a href="/bookmarkList/{{id}}"class=" ui icon button" data-tooltip="Expand your Archive" data-position="right center"> <i class="{{color}} archive icon"></i></a>
+          <a href="/bookmarks/deleteBookmarkList/{{id}}" class=" ui icon button deleteBookmarklist" data-tooltip="WARNING this will delete the entire bookmark List!!" data-position="right center"> 
+            <i class="black trash icon"></i></a>
+         
+
+      </div>
+     
+    </div>
+  </div>
+  {{/each}}
+  
+  </div>
+     {{> addbookmarkGroup}}
+
+</section>
+
+
+
+
+
+  
+
+
+
